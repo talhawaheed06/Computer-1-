@@ -1,0 +1,20 @@
+address
+0    0    - add ac+0
+1    20   - ac + M[20] 
+2    21   - ac + M[21]
+3    1022 - store ac at M[22]
+4    23   - ac + M[23]
+5    0808 - branch and goto 8
+6    0 
+7    0
+8    1024 - store ac at M[24]
+9    1825 - exchange ac and M[25]
+10   1026 - store ac at M[26] 
+address locations :(values)
+#Values
+20 - 111 
+21 - 222 
+22 - 333 
+23 - f000
+24 - 0 
+25 - 4567
